@@ -1,0 +1,128 @@
+body {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 300;
+}
+
+p, li {
+  line-height: 1.5;
+}
+
+#app {
+  width: 700px;
+  margin: 10px auto;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+header h1 {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+header #first-name {
+  font-weight: 100
+}
+
+header #last-name {
+  font-weight: 900
+}
+
+header #career-title {
+  color: #5B9BD5
+}
+
+header #location {
+  color: #A5A5A5
+}
+
+header .subtitle span {
+  margin: 0 5px;
+}
+
+.fa-linkedin, .fa-github, .fa-envelope, .fa-phone {
+  margin-right: 2px;
+}
+
+section {
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: 'Source Sans Pro';
+  color: #4472C4;
+  padding-bottom: 5px;
+  border-bottom: 0.5px solid #A5A5A5;
+}
+
+#skills p {
+  margin: 0 5px;
+}
+
+#skills .name {
+  display: inline-block;
+  text-align: right;
+  font-weight: 600;
+  margin-right: 5px;
+  width: 80px;
+}
+
+section#work div {
+}
+
+section#work .job {
+}
+
+
+section#work .job .details {
+  height: 33px;
+  position: relative;
+}
+
+section#work .job .details div {
+  display: inline-block;
+}
+
+section#work .company {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+section#work .title {
+  font-size: 13px;
+  font-style: italic;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+section#work .location {
+  color: #5B9BD5;
+  font-style: italic;
+
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+section#work .date {
+  font-style: italic;
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+section#work ul {
+  padding-left: 15px;
+  margin-top: 5px;
+  clear: both;
+}
+
+section#education #university-degree {
+  font-weight: 600;
+}
