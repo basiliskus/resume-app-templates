@@ -60,4 +60,8 @@
   h3 {
     break-after: avoid-page;
   }
+
+  div {
+    break-inside: avoid-page;
+  }
 }
