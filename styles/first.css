@@ -117,6 +117,10 @@ section#work ul {
   clear: both;
 }
 
+section#projects .name {
+  font-weight: 600;
+}
+
 section#education #university-degree {
   font-weight: 600;
 }
