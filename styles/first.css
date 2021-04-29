@@ -2,6 +2,7 @@ body {
   font-family: 'Roboto';
   font-size: 12px;
   font-weight: 300;
+  margin: 30px;
 }
 
 p,
@@ -11,17 +12,17 @@ li {
 
 #resume {
   width: 700px;
-  margin: 10px auto;
+  margin: 0 auto;
 }
 
 header {
   text-align: center;
-  padding-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 header h1 {
   font-size: 32px;
-  margin-bottom: 5px;
+  margin: 0 0 5px 0;
 }
 
 header #first-name {
@@ -122,7 +123,7 @@ section#work .date {
 
 section#work ul {
   padding-left: 15px;
-  margin-top: 5px;
+  margin-top: 2px;
   clear: both;
 }
 
