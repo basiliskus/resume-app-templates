@@ -52,10 +52,6 @@ header .subtitle span {
   margin-right: 2px;
 }
 
-section {
-  margin: 0 auto;
-}
-
 h2 {
   font-family: 'Source Sans Pro';
   color: #4472c4;
@@ -73,12 +69,6 @@ h2 {
   font-weight: 600;
   margin-right: 5px;
   width: 80px;
-}
-
-section#work div {
-}
-
-section#work .job {
 }
 
 section#work .job .details {
