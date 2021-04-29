@@ -4,7 +4,8 @@ body {
   font-weight: 300;
 }
 
-p, li {
+p,
+li {
   line-height: 1.5;
 }
 
@@ -24,26 +25,29 @@ header h1 {
 }
 
 header #first-name {
-  font-weight: 100
+  font-weight: 100;
 }
 
 header #last-name {
-  font-weight: 900
+  font-weight: 900;
 }
 
 header #career-title {
-  color: #5B9BD5
+  color: #5b9bd5;
 }
 
 header #location {
-  color: #A5A5A5
+  color: #a5a5a5;
 }
 
 header .subtitle span {
   margin: 0 5px;
 }
 
-.fa-linkedin, .fa-github, .fa-envelope, .fa-phone {
+.fa-linkedin,
+.fa-github,
+.fa-envelope,
+.fa-phone {
   margin-right: 2px;
 }
 
@@ -53,9 +57,9 @@ section {
 
 h2 {
   font-family: 'Source Sans Pro';
-  color: #4472C4;
+  color: #4472c4;
   padding-bottom: 5px;
-  border-bottom: 0.5px solid #A5A5A5;
+  border-bottom: 0.5px solid #a5a5a5;
 }
 
 #skills p {
@@ -75,7 +79,6 @@ section#work div {
 
 section#work .job {
 }
-
 
 section#work .job .details {
   height: 33px;
@@ -101,7 +104,7 @@ section#work .title {
 }
 
 section#work .location {
-  color: #5B9BD5;
+  color: #5b9bd5;
   font-style: italic;
 
   position: absolute;
