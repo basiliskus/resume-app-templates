@@ -64,4 +64,8 @@
   div {
     break-inside: avoid-page;
   }
+
+  @page {
+    margin: 0.75in 1in;
+  }
 }
