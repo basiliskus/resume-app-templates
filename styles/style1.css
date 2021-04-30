@@ -3,13 +3,18 @@ html {
 }
 
 body {
-  display: flex;
-  align-content: center;
-  flex-direction: row;
-  font-family: 'Lato';
-  font-size: 1rem;
+  margin: 0;
   line-height: 1.5;
+  font-family: Lato;
+  font-size: 1rem;
   font-weight: 400;
+}
+
+#resume {
+  margin: 0 auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
 }
 
 #left {
@@ -17,7 +22,7 @@ body {
   flex-direction: column;
   width: 50%;
   height: auto;
-  background-color: #3949AB;
+  background-color: #3949ab;
 }
 
 #right {
@@ -26,7 +31,7 @@ body {
   width: 50%;
   height: auto;
   padding: 1rem 2rem;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 /* Header Section */
@@ -88,7 +93,7 @@ header .subtitle span {
 /* Main Section */
 
 h2 {
-  font-family: 'Montserrat';
+  font-family: Montserrat;
   line-height: 1.4rem;
   color: #4472c4;
   margin-bottom: 10px;
