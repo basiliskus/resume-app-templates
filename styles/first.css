@@ -4,47 +4,6 @@ body {
   font-weight: 300;
 }
 
-/* Header Section */
-
-header {
-  text-align: center;
-  margin-bottom: 15px;
-}
-
-header h1 {
-  font-size: 32px;
-  margin: 0 0 5px 0;
-}
-
-header #first-name {
-  font-weight: 100;
-}
-
-header #last-name {
-  font-weight: 900;
-}
-
-header #career-title {
-  color: #5b9bd5;
-}
-
-header #location {
-  color: #a5a5a5;
-}
-
-header .subtitle span {
-  margin: 0 5px;
-}
-
-.fa-linkedin,
-.fa-github,
-.fa-envelope,
-.fa-phone {
-  margin-right: 2px;
-}
-
-/* Main Section */
-
 h2 {
   font-family: 'Source Sans Pro';
   color: #4472c4;
@@ -53,14 +12,92 @@ h2 {
   border-bottom: 0.5px solid #a5a5a5;
 }
 
-/* Skills Section */
+/* Basics & Contact Section */
 
-#skills p {
+#basics {
+  text-align: center;
+}
+
+#basics #name {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+#basics #name .first-name {
+  font-weight: 100;
+  display: inline;
+}
+
+#basics #name .last-name {
+  font-weight: 900;
+  display: inline;
+}
+
+#basics #career-title {
+  color: #5b9bd5;
+  display: inline;
+}
+
+#basics #location {
+  color: #a5a5a5;
+  display: inline;
+}
+
+#basics #career-title::after,
+#contact #phone::after,
+#contact #linkedin::after {
+  content: '•';
+  color: black;
   margin: 0 5px;
 }
 
-#skills .name {
+/* Contact Section */
+
+#contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+
+  width: 300px;
+  margin: 0 auto 15px auto;
+}
+
+#contact div::before {
+  background-size: cover;
+  background-repeat: no-repeat;
   display: inline-block;
+  width: 10px;
+  height: 10px;
+  content: '';
+  margin-right: 3px;
+}
+
+#contact #phone::before {
+  background-image: url('/images/phone.svg');
+}
+
+#contact #email::before {
+  background-image: url('/images/email.svg');
+}
+
+#contact #linkedin::before {
+  background-image: url('/images/linkedin.svg');
+}
+
+#contact #github::before {
+  background-image: url('/images/github.svg');
+}
+
+/* Summary Section */
+
+/* Skills Section */
+
+#skills .skill div {
+  display: inline-block;
+}
+
+#skills .name {
   text-align: right;
   font-weight: 600;
   margin-right: 5px;
@@ -75,57 +112,72 @@ h2 {
 }
 
 #work .job {
-  overflow: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+    'company location'
+    'title date'
+    'details details';
 }
 
-#work .job .details {
-  height: 33px;
-  position: relative;
-}
-
-#work .job .details div {
-  display: inline-block;
-}
-
-#work .company {
+#work .job .company {
+  grid-area: company;
   font-size: 14px;
   font-weight: 600;
 }
 
-#work .title {
+#work .job .title {
+  grid-area: title;
   font-size: 13px;
   font-style: italic;
-
-  position: absolute;
-  left: 0;
-  bottom: 0;
 }
 
-#work .location {
+#work .job .location {
+  grid-area: location;
+  justify-self: end;
   color: #5b9bd5;
   font-style: italic;
-
-  position: absolute;
-  right: 0;
-  top: 0;
 }
 
-#work .date {
+#work .job .date {
+  grid-area: date;
+  justify-self: end;
   font-style: italic;
+}
 
-  position: absolute;
-  right: 0;
-  bottom: 0;
+#work .job .details {
+  grid-area: details;
 }
 
 /* Personal Projects Section */
 
-#projects .name {
+#projects .project:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+#projects .project div {
+  display: inline;
+}
+
+#projects .project .name {
   font-weight: 600;
+}
+
+#projects .project .date::after {
+  content: ':';
 }
 
 /* Education Section */
 
-#education #university-degree {
+#education .degree div {
+  display: inline;
+}
+
+#education .degree .name {
   font-weight: 600;
+}
+
+#education .degree .name::after,
+#education .degree .institution::after {
+  content: ',';
 }
