@@ -1,0 +1,171 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  font-family: 'Lato';
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+#left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: auto;
+  background-color: #3949AB;
+}
+
+#right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: auto;
+  padding: 1rem 2rem;
+  background-color: #FAFAFA;
+}
+
+/* Header Section */
+header {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+header h1 {
+  font-family: Montserrat;
+  font-size: 3rem;
+  color: #fff;
+  margin: 2rem 1rem;
+}
+
+header #first-name {
+  font-weight: 100;
+}
+
+header #last-name {
+  font-weight: 900;
+}
+
+header #career-title {
+  color: #fff;
+  margin: 1.5rem 0.5rem;
+}
+
+header #location {
+  color: #fff;
+  margin: 1.5rem 0.5rem;
+}
+
+header .subtitle span {
+  color: #fff;
+  margin: 0 5px;
+}
+
+.fa-linkedin,
+.fa-github,
+.fa-envelope,
+.fa-phone {
+  color: #fff;
+  margin: 1.5rem 0.5rem;
+}
+
+#summary {
+  margin: 3rem 3rem;
+}
+
+#summary h2 {
+  color: #fff;
+}
+
+#summary p {
+  color: #fff;
+}
+
+/* Main Section */
+
+h2 {
+  font-family: 'Montserrat';
+  line-height: 1.4rem;
+  color: #4472c4;
+  margin-bottom: 10px;
+  padding-bottom: 3px;
+}
+
+/* Skills Section */
+
+#skills p {
+  margin: 0 5px;
+}
+
+#skills .name {
+  display: inline-block;
+  text-align: right;
+  font-weight: 600;
+  margin-right: 5px;
+  width: 80px;
+}
+
+/* Work Experience Section */
+
+#work ul {
+  padding-left: 15px;
+  clear: both;
+}
+
+#work .job {
+  overflow: auto;
+}
+
+#work .job .details {
+  height: 33px;
+  position: relative;
+}
+
+#work .job .details div {
+  display: inline-block;
+}
+
+#work .company {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#work .title {
+  font-size: 13px;
+  font-style: italic;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+#work .location {
+  color: #5b9bd5;
+  font-style: italic;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#work .date {
+  font-size: 0.8rem;
+  font-style: italic;
+  position: absolute;
+  margin: 1rem 0;
+  right: 0;
+}
+
+/* Personal Projects Section */
+
+#projects .name {
+  font-weight: 600;
+}
+
+/* Education Section */
+
+#education #university-degree {
+  font-weight: 600;
+}
