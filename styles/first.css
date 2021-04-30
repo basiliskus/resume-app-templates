@@ -4,6 +4,8 @@ body {
   font-weight: 300;
 }
 
+/* Header Section */
+
 header {
   text-align: center;
   margin-bottom: 15px;
@@ -41,6 +43,8 @@ header .subtitle span {
   margin-right: 2px;
 }
 
+/* Main Section */
+
 h2 {
   font-family: 'Source Sans Pro';
   color: #4472c4;
@@ -48,6 +52,8 @@ h2 {
   padding-bottom: 3px;
   border-bottom: 0.5px solid #a5a5a5;
 }
+
+/* Skills Section */
 
 #skills p {
   margin: 0 5px;
@@ -61,25 +67,32 @@ h2 {
   width: 80px;
 }
 
-section#work .job {
+/* Work Experience Section */
+
+#work ul {
+  padding-left: 15px;
+  clear: both;
+}
+
+#work .job {
   overflow: auto;
 }
 
-section#work .job .details {
+#work .job .details {
   height: 33px;
   position: relative;
 }
 
-section#work .job .details div {
+#work .job .details div {
   display: inline-block;
 }
 
-section#work .company {
+#work .company {
   font-size: 14px;
   font-weight: 600;
 }
 
-section#work .title {
+#work .title {
   font-size: 13px;
   font-style: italic;
 
@@ -88,7 +101,7 @@ section#work .title {
   bottom: 0;
 }
 
-section#work .location {
+#work .location {
   color: #5b9bd5;
   font-style: italic;
 
@@ -97,7 +110,7 @@ section#work .location {
   top: 0;
 }
 
-section#work .date {
+#work .date {
   font-style: italic;
 
   position: absolute;
@@ -105,17 +118,14 @@ section#work .date {
   bottom: 0;
 }
 
-section#work ul {
-  padding-left: 15px;
-  clear: both;
-}
+/* Personal Projects Section */
 
-section#projects .name {
+#projects .name {
   font-weight: 600;
 }
 
-section#education #university-degree {
-  font-weight: 600;
-}
+/* Education Section */
 
+#education #university-degree {
+  font-weight: 600;
 }
