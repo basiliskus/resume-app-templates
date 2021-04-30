@@ -8,10 +8,13 @@ body {
   margin: auto;
 }
 
-#skills p,
-#work p,
+#resume div,
+#contact div,
+#skills div,
+#work div,
 #work ul,
-#education p {
+#projects div,
+#education div {
   margin: 0;
 }
 
