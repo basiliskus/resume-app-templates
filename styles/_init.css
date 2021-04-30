@@ -18,3 +18,9 @@ body {
 #work .job {
   margin-bottom: 8px;
 }
+
+@media print {
+  #resume {
+    max-width: none !important;
+  }
+}

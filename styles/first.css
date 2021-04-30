@@ -118,8 +118,4 @@ section#education #university-degree {
   font-weight: 600;
 }
 
-@media print {
-  #resume {
-    width: 100%;
-  }
 }
