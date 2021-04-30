@@ -45,7 +45,7 @@
     page-break-inside: avoid;
   }
 
-  tr,
+  div,
   img {
     break-inside: avoid-page;
     page-break-inside: avoid;
@@ -62,11 +62,6 @@
   h3 {
     break-after: avoid-page;
     page-break-after: avoid;
-  }
-
-  div {
-    break-inside: avoid-page;
-    page-break-inside: avoid;
   }
 
   @page {
