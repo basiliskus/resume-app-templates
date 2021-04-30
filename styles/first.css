@@ -44,7 +44,8 @@ header .subtitle span {
 h2 {
   font-family: 'Source Sans Pro';
   color: #4472c4;
-  padding-bottom: 5px;
+  margin-bottom: 10px;
+  padding-bottom: 3px;
   border-bottom: 0.5px solid #a5a5a5;
 }
 
@@ -58,6 +59,10 @@ h2 {
   font-weight: 600;
   margin-right: 5px;
   width: 80px;
+}
+
+section#work .job {
+  overflow: auto;
 }
 
 section#work .job .details {
