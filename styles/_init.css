@@ -1,0 +1,20 @@
+body {
+  margin: 30px;
+}
+
+#resume {
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+}
+
+#skills p,
+#work p,
+#work ul,
+#education p {
+  margin: 0;
+}
+
+#work .job {
+  margin-bottom: 8px;
+}
