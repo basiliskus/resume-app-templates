@@ -7,9 +7,14 @@ body {
 h2 {
   font-family: 'Source Sans Pro';
   color: #4472c4;
-  margin-bottom: 10px;
-  padding-bottom: 3px;
-  border-bottom: 0.5px solid #a5a5a5;
+  margin: 15px 0;
+  padding-bottom: 5px;
+  border-bottom: 0.5px solid black;
+  /* border-bottom: 0.5px solid #a5a5a5; */
+}
+
+#resume {
+  width: 700px;
 }
 
 /* Basics & Contact Section */
@@ -43,6 +48,10 @@ h2 {
   display: inline;
 }
 
+#basics #name .first-name::after {
+  content: '\00a0';
+}
+
 #basics #career-title::after,
 #contact #phone::after,
 #contact #linkedin::after {
@@ -60,7 +69,7 @@ h2 {
   align-items: baseline;
 
   width: 300px;
-  margin: 0 auto 15px auto;
+  margin: 0 auto 30px auto;
 }
 
 #contact div::before {
@@ -100,8 +109,13 @@ h2 {
 #skills .name {
   text-align: right;
   font-weight: 600;
-  margin-right: 5px;
+  margin: 0 5px;
   width: 80px;
+  height: 18px;
+}
+
+#skills .name::first-letter {
+  text-transform: uppercase;
 }
 
 /* Work Experience Section */
@@ -118,6 +132,7 @@ h2 {
     'company location'
     'title date'
     'details details';
+  margin-bottom: 12px;
 }
 
 #work .job .company {
@@ -147,6 +162,14 @@ h2 {
 
 #work .job .details {
   grid-area: details;
+  margin-top: 5px;
+}
+
+#work .job .company,
+#work .job .title,
+#work .job .location,
+#work .job .date {
+  line-height: 1.15;
 }
 
 /* Personal Projects Section */
@@ -163,8 +186,12 @@ h2 {
   font-weight: 600;
 }
 
+#projects .project .name::after {
+  content: '\00a0';
+}
+
 #projects .project .date::after {
-  content: ':';
+  content: ':\00a0';
 }
 
 /* Education Section */
@@ -177,7 +204,21 @@ h2 {
   font-weight: 600;
 }
 
-#education .degree .name::after,
-#education .degree .institution::after {
-  content: ',';
+#education .degree .name::after {
+  content: ',\00a0';
+}
+
+#education .degree .location::before {
+  content: '\00a0(';
+}
+
+#education .degree .location::after {
+  content: '),\00a0';
+}
+
+/* Hidden */
+
+.header,
+.footer {
+  display: none;
 }
