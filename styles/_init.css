@@ -8,18 +8,12 @@ body {
   margin: auto;
 }
 
-#resume div,
-#contact div,
-#skills div,
-#work div,
-#work ul,
-#projects div,
-#education div {
+section,
+div,
+ul,
+li {
   margin: 0;
-}
-
-#work .job {
-  margin-bottom: 8px;
+  padding: 0;
 }
 
 @media print {

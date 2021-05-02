@@ -1,10 +1,4 @@
-/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
-/* Modified to fit needs */
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
+/* Based on main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
 
 @media print {
   body {
@@ -27,10 +21,6 @@
     content: ' (' attr(title) ')';
   }
 
-  /*
-   * Don't show links that are fragment identifiers,
-   * or use the `javascript:` pseudo protocol
-   */
   a[href^='#']::after,
   a[href^='javascript:']::after {
     content: '';
