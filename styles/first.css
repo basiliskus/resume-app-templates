@@ -215,7 +215,7 @@ h2 {
 
 /* Hidden */
 
-.header,
-.footer {
+#header,
+#footer {
   display: none;
 }
