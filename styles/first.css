@@ -9,8 +9,7 @@ h2 {
   color: #4472c4;
   margin: 15px 0;
   padding-bottom: 5px;
-  border-bottom: 0.5px solid black;
-  /* border-bottom: 0.5px solid #a5a5a5; */
+  border-bottom: 0.2px solid black;
 }
 
 #resume {
