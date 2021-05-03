@@ -73,29 +73,26 @@ h2 {
 }
 
 #contact div::before {
-  background-size: cover;
-  background-repeat: no-repeat;
   display: inline-block;
-  width: 10px;
-  height: 10px;
-  content: '';
+  width: 12px;
   margin-right: 3px;
+  vertical-align: middle;
 }
 
 #contact #phone::before {
-  background-image: url('/images/phone.svg');
+  content: url('/images/phone.svg');
 }
 
 #contact #email::before {
-  background-image: url('/images/email.svg');
+  content: url('/images/email.svg');
 }
 
 #contact #linkedin::before {
-  background-image: url('/images/linkedin.svg');
+  content: url('/images/linkedin.svg');
 }
 
 #contact #github::before {
-  background-image: url('/images/github.svg');
+  content: url('/images/github.svg');
 }
 
 /* Summary Section */
