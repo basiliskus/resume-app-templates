@@ -96,6 +96,10 @@ h2 {
 
 /* Summary Section */
 
+#summary p:not(:last-child) {
+  margin-bottom: 5px;
+}
+
 /* Skills Section */
 
 #skills .skill div {
@@ -172,6 +176,10 @@ h2 {
 
 #projects .project:not(:last-child) {
   margin-bottom: 10px;
+}
+
+#projects .project p {
+  margin-top: 5px;
 }
 
 #projects .project div {
